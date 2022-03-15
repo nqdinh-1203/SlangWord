@@ -1,0 +1,7 @@
+/**
+ * SlangWord
+ */
+public class SlangWord {
+    
+    
+}
