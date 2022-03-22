@@ -5,7 +5,8 @@ public class SWList {
 
     public SWList()
     {
-
+        dictionary = new TreeMap<>();
     }
+
     
 }
