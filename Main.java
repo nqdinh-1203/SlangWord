@@ -1,18 +1,15 @@
+import java.io.IOException;
 import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
-        String slang = "=)))))";
-        List<String> meanings = new ArrayList<>();
-        meanings.add("slime");
-        meanings.add("more slime");
-        meanings.add("more than slime");
-    
-        SlangWord sl = new SlangWord(slang, meanings);
+        SWList dict = new SWList();
+        String file_name = "slang.txt";
 
-        System.out.println(sl.toString());
+        SWFile.read(file_name, dict);
+
+        System.out.println(dict);
     }
-    
 }

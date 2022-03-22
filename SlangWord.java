@@ -5,8 +5,9 @@ import java.util.*;
  */
 public class SlangWord {
     private String slang;
-    private List<String> meanings;
+    private ArrayList<String> meanings;
 
+    //===================CONSTRUCTORS=========================
     public SlangWord()
     {
         slang = "";
@@ -32,7 +33,31 @@ public class SlangWord {
         this.slang = slang;
         this.meanings = new ArrayList<>(meanings);
     }
+    //=========================================================
 
+    //===================GETTER & SETTER=========================
+    public void setSlang(String slang)
+    {
+        this.slang = slang;
+    }
+
+    public String getSlang()
+    {
+        return this.slang;
+    }
+
+    public void setMeanings(ArrayList<String> meanings)
+    {
+        this.meanings = meanings;
+    }
+
+    public ArrayList<String> getMeanings()
+    {
+        return this.meanings;
+    }
+    //=========================================================
+
+    //=================== HELPER =========================
     public String toString()
     {
         String m = "";
