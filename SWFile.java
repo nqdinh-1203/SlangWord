@@ -25,9 +25,8 @@ public class SWFile
         String line = "";
         buffer.readLine();
 
-        while(line != null)
+        while((line = buffer.readLine()) != null)
         {
-            line = buffer.readLine();
             SlangWord sl = new SlangWord(line);
             dict.add(sl);
         }

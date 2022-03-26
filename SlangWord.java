@@ -16,13 +16,14 @@ public class SlangWord {
 
     public SlangWord(String data)
     {
+        meanings = new ArrayList<>();
         // tach slang voi meaning qua ki tu "`" vi du: #1`Number one
         String[] s = data.split("`");
 
         slang = s[0];
 
         // tach ra cac meaning neu co nhieu meaning
-        String[] s1 = s[1].split("| ");
+        String[] s1 = s[1].split("\\| ");
 
         for (String meaning : s1)
             meanings.add(meaning);
