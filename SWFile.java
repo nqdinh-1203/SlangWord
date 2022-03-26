@@ -14,28 +14,35 @@ public class SWFile
     }
 
 
-    public static void read(String file_name, SWList dict) throws IOException
+    public static SWDict read(String file_name) throws IOException
     {
-        if (!existedFile(file_name)) {
-            return;
-        }
-        BufferedReader buffer = new BufferedReader(new FileReader(file_name));
-        dict = new SWList();
-        
-        String line = "";
-        buffer.readLine();
+        if (!existedFile(file_name))
+            return null;
 
-        while((line = buffer.readLine()) != null)
+        BufferedReader buffer = new BufferedReader(new FileReader(file_name));
+        SWDict dict = new SWDict();
+        
+        buffer.readLine();
+        String line = buffer.readLine();
+
+        while(line != null)
         {
             SlangWord sl = new SlangWord(line);
             dict.add(sl);
+            line = buffer.readLine();
         }
 
         buffer.close();
+        return dict;
     }
 
-    public void write(String file_name)
+    public void write(String file_name, SWDict dict)throws IOException
     {
+        if (!existedFile(file_name))
+            return;
 
+        BufferedWriter buffer = new BufferedWriter(new FileWriter(file_name));
+        
+        buffer.close();
     }
 }

@@ -1,15 +1,16 @@
 import java.io.IOException;
-import java.util.*;
+//import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) throws IOException
     {
-        SWList dict = new SWList();
         String file_name = "slang.txt";
 
-        SWFile.read(file_name, dict);
+        /* SWList dict = SWFile.read(file_name);
+        dict.print(); */
 
-        System.out.println(dict);
+        SWDict dict = SWFile.read("test.txt");
+        dict.print();
     }
 }

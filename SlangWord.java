@@ -23,7 +23,7 @@ public class SlangWord {
         slang = s[0];
 
         // tach ra cac meaning neu co nhieu meaning
-        String[] s1 = s[1].split("\\| ");
+        String[] s1 = s[1].split("\\|");
 
         for (String meaning : s1)
             meanings.add(meaning);
@@ -65,7 +65,7 @@ public class SlangWord {
         int i;
         for (i = 0; i < meanings.size() - 1; i++) 
         {
-            m += meanings.get(i) + "| ";
+            m += meanings.get(i) + "|";
         }
         m += meanings.get(i);
 
