@@ -1,5 +1,5 @@
 import java.io.IOException;
-//import java.util.*;
+import java.util.*;
 
 public class Main {
 
@@ -11,6 +11,15 @@ public class Main {
         dict.print(); */
 
         SWDict dict = SWFile.read("test.txt");
-        dict.print();
+
+        String slang = ">//<";
+        String meaning = "Mischievous Smile";
+
+        
+
+        //List<SlangWord> list = dict.findByMeaning(meaning);
+        SlangWord random = dict.randomSlangWord();
+
+        System.out.println(random.toString());
     }
 }
