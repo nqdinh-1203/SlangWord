@@ -86,4 +86,11 @@ public class SWDict {
 
         return new SlangWord(randomSlang, values);
     }
+
+    public boolean checkSlangWord(String slang, String meaning) {
+        ArrayList<String> meanings = new ArrayList<String>();
+        meanings = dictionary.get(slang);
+
+        return meanings.contains(meaning);
+    }
 }

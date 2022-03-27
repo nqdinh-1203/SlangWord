@@ -12,14 +12,14 @@ public class Main {
 
         SWDict dict = SWFile.read("test.txt");
 
-        String slang = ">//<";
-        String meaning = "Mischievous Smile";
+        String slang = ">.<";
+        String meaning = "Frustrated";
 
-        
+        System.out.println(dict.checkSlangWord(slang, meaning));
 
         //List<SlangWord> list = dict.findByMeaning(meaning);
-        SlangWord random = dict.randomSlangWord();
+        /* SlangWord random = dict.randomSlangWord();
 
-        System.out.println(random.toString());
+        System.out.println(random.toString()); */
     }
 }
