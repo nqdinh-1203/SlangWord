@@ -69,6 +69,19 @@ public class SlangWord {
         }
         m += meanings.get(i);
 
-        return "Slang: " + slang + " - Meanings: " + m;
+        return slang + "`" + m;
+    }
+
+    public void print()
+    {
+        String m = "";
+        int i;
+        for (i = 0; i < meanings.size() - 1; i++) 
+        {
+            m += meanings.get(i) + "|";
+        }
+        m += meanings.get(i);
+
+        System.out.println("Slang: " + slang + " - Meanings: " + m);
     }
 }

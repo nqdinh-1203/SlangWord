@@ -7,13 +7,18 @@ public class Main
     {
         Scanner in = new Scanner(System.in);
         String file_name = "slang.txt";
+        ArrayList<SlangWord> history = new ArrayList<>();
 
         /* SWList dict = SWFile.read(file_name);
         dict.print(); */
 
         SWDict dict = SWFile.read("test.txt");
 
-        Features.f01(dict, in);
+        Features.f02(dict, history, in);
+
+        Features.f01(dict, history, in);
+
+        Features.f03(history);
 
         /* String slang = ">.<";
         String meaning = "Frustrated";

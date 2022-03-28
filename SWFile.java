@@ -14,7 +14,7 @@ public class SWFile
     }
 
 
-    public static SWDict read(String file_name) throws IOException
+    static SWDict read(String file_name) throws IOException
     {
         if (!existedFile(file_name))
             return null;
@@ -36,7 +36,7 @@ public class SWFile
         return dict;
     }
 
-    public void write(String file_name, SWDict dict)throws IOException
+    static void write(String file_name, SWDict dict)throws IOException
     {
         if (!existedFile(file_name))
             return;
@@ -45,4 +45,11 @@ public class SWFile
         
         buffer.close();
     }
+
+    /* static void writeSlangWord(String file_name, SlangWord sw) throws IOException
+    {
+        PrintWriter pout = new PrintWriter(new FileWriter(file_name, true));
+        pout.append(sw.toString() + "\n");
+        pout.close();
+    } */
 }

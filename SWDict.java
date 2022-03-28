@@ -31,8 +31,6 @@ public class SWDict {
 
     public void print()
     {
-        System.out.println(dictionary.size());
-
         for (Map.Entry<String, ArrayList<String>> sl : dictionary.entrySet()) {
             SlangWord temp = toSlangWord(sl);
             System.out.println(temp.toString());
@@ -47,8 +45,8 @@ public class SWDict {
         return null;
     }
 
-    public List<SlangWord> findByMeaning(String meaning) {
-        List<SlangWord> list = new ArrayList<SlangWord>();
+    public ArrayList<SlangWord> findByMeaning(String meaning) {
+        ArrayList<SlangWord> list = new ArrayList<SlangWord>();
 
         for (Map.Entry<String, ArrayList<String>> sl : dictionary.entrySet()) 
         {
