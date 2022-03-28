@@ -69,6 +69,6 @@ public class SlangWord {
         }
         m += meanings.get(i);
 
-        return slang + "`" + m;
+        return "Slang: " + slang + " - Meanings: " + m;
     }
 }
