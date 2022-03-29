@@ -1,3 +1,5 @@
+package source;
+
 import java.util.*;
 
 /**
@@ -49,7 +51,8 @@ public class SlangWord {
 
     public void setMeanings(ArrayList<String> meanings)
     {
-        this.meanings = meanings;
+        this.meanings = new ArrayList<>();
+        this.meanings.addAll(meanings);
     }
 
     public ArrayList<String> getMeanings()

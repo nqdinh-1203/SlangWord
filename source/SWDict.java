@@ -1,3 +1,5 @@
+package source;
+
 import java.util.*;
 
 public class SWDict {
@@ -17,6 +19,11 @@ public class SWDict {
         this.dictionary = new TreeMap<String, ArrayList<String>>(dict);
     }
     //===========================================================================
+
+    public Set<Map.Entry<String, ArrayList<String>>> getEntrySet()
+    {
+        return dictionary.entrySet();
+    }
 
     //=================== HELPER ================================================
     public SlangWord toSlangWord(Map.Entry<String, ArrayList<String>> entry) 
@@ -63,16 +70,26 @@ public class SWDict {
         dictionary.put(sw.getSlang(), sw.getMeanings());
     }
 
-    public void duplicateSlangWord(SlangWord sw, Map.Entry<String, ArrayList<String>> s) 
+    public void duplicateSlangWord(SlangWord sw) 
     {
-        ArrayList<String> m = s.getValue();
-        m.addAll(sw.getMeanings());
-        s.setValue(m);
+        for (Map.Entry<String, ArrayList<String>> entry : dictionary.entrySet()) {
+            if (entry.getKey() == sw.getSlang()) {
+                ArrayList<String> m = entry.getValue();
+                m.addAll(sw.getMeanings());
+                entry.setValue(m);
+                return;
+            }
+        }
     }
 
-    public void deleteSlangWord(SlangWord sw) 
+    public void editSlangWord(SlangWord sw) 
     {
-        dictionary.remove(sw.getSlang());
+        dictionary.replace(sw.getSlang(), sw.getMeanings());
+    }
+
+    public void deleteSlangWord(String slang) 
+    {
+        dictionary.remove(slang);
     }
 
     public SlangWord randomSlangWord() {

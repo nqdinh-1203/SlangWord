@@ -1,3 +1,5 @@
+package source;
+
 public class Menu {
     public static void ClearConsole(){
         try{
@@ -18,7 +20,7 @@ public class Menu {
         }
     }
 
-    static void mainMenu()
+    public static void mainMenu()
     {
         ClearConsole();
         System.out.println("==================MENU===================");
@@ -32,6 +34,7 @@ public class Menu {
         System.out.println("8. On this day slang word");
         System.out.println("9. Game: Guess slang from definition");
         System.out.println("10. Game: Guess definition from slang");
+        System.out.println("11. Clear History");
         System.out.println("0. Exit");
         System.out.print("Input your choice: ");
     }
