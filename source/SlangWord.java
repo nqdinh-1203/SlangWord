@@ -31,7 +31,7 @@ public class SlangWord {
             meanings.add(meaning);
     }
     
-    public SlangWord(String slang, List<String> meanings)
+    public SlangWord(String slang, ArrayList<String> meanings)
     {
         this.slang = slang;
         this.meanings = new ArrayList<>(meanings);
