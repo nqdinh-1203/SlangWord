@@ -5,7 +5,34 @@ $_$`Has money
 %)`Drunk| giddy
 &`And
 &APOS;S`Wrongly displayed 's
+><`Frustration
+>,<`Angry| annoyed
+>.>`Suspicious| wary
+>.<`Frustrated| angry| upset| in pain
+>//<`Embarrassed| blushing
+>3`Evil but happy|Hate
+>:(`Angry
+>:)`Evil Grin
+>:D`Scheming| Maniacal
+>:D<`Hug
+>:O`Angry
+>O<`Yelling
+>_>`Looking left| shifty look
+>_<`Frustrated
 &HEARTS;`HTML code for a heart
+<#`Misspelling of <3
+<>`Not equal| No comment
+<><`Fish
+<.<`Shifty look
+</3`Broken Hearted
+<2`Not quite love (<3)
+<3`Love (heart shape)
+<333`Multiple hearts
+<3U`Love You
+<4`More than love (<3)
+<B`Hate
+<G>`Grin
+<_<`Sarcasm| look left
 'EM`Them
 (!)`Sarcasm
 ('_')`Emoticon Representing Boredom
@@ -27,8 +54,8 @@ $_$`Has money
 *`Indicating a spelling correction
 *$`Starbucks
 *$$`Starbucks
-*.*`Every file on a computer
 *<:-)`Clown
+*.*`Every file on a computer
 *G*`Grin
 *HUG*`A Cyberhug
 *O*`Confused| surprised| shocked
@@ -42,8 +69,6 @@ $_$`Has money
 -_-`Annoyed| tired
 .-.`Sad| unhappy
 ...`Silence| A Trailing Thought
-.22`A handgun
-.44`.44 Magnum
 .BIZ`Top level domain for business
 .CO`Alternative to .COM
 .COM`commerce
@@ -77,6 +102,7 @@ $_$`Has money
 1D`One Direction (band)
 1UP`Extra life in a game
 2`To
+.22`A handgun
 24/7`Twenty-four hours a day, seven days a week
 2B`To Be
 2BH`To Be Honest
@@ -99,13 +125,14 @@ $_$`Has money
 2NYT`Tonight
 2U`To You
 2U2`To You Too
-30STM`30 Seconds To Mars (band)
 3>`Hate
+30STM`30 Seconds To Mars (band)
 3DG`Three Days Grace (band)
 3G`Third Generation mobile phone network
 3Q`Thank You
 4/20`April 20th| WEED smoking day
 401K`Retirement investment plan
+.44`.44 Magnum
 4CHAN`Internet message/image board
 4COL`For Crying Out Loud
 4E4`Forever
@@ -144,6 +171,8 @@ $_$`Has money
 9_9`Rolling the eyes
 :$`Embarrassed
 :&`Tongue tied| speechless
+:>`Mischievous smile
+:<`Sad| frowning
 :'(`Crying
 :')`Crying with joy
 :(`Unhappy| sad
@@ -160,8 +189,6 @@ $_$`Has money
 :0`Surprised| shocked
 :3`Cute| goofy face
 :9`Yum| licking
-:<`Sad| frowning
-:>`Mischievous smile
 :?`Confused
 :@`Angry
 :B`Buck teeth
@@ -188,27 +215,12 @@ $_$`Has money
 ;)`Wink
 ;-)`Wink
 ;;`Sad| Confused
-;D`Wink
 ;O`Joking
+;D`Wink
 ;P`Winking and sticking tongue out
 ;P;`Misspelling of LOL
-<#`Misspelling of <3
-<.<`Shifty look
-</3`Broken Hearted
-<2`Not quite love (<3)
-<3`Love (heart shape)
-<333`Multiple hearts
-<3U`Love You
-<4`More than love (<3)
-<>`Not equal| No comment
-<><`Fish
-<B`Hate
-<G>`Grin
-<_<`Sarcasm| look left
 =`Equals| Complete Transformation
-=(((`buon
 =)`Happy
-=)))`vui qua|vui ghe|vui
 =*`Kiss
 =.=`Tired
 =/=`Not equal to
@@ -223,20 +235,6 @@ $_$`Has money
 =X`No Comment
 =[`Sad
 =]`Happy
->,<`Angry| annoyed
->.<`Frustrated| angry| upset| in pain
->.>`Suspicious| wary
->//<`Embarrassed| blushing
->3`Evil but happy|Hate
->:(`Angry
->:)`Evil Grin
->:D`Scheming| Maniacal
->:D<`Hug
->:O`Angry
-><`Frustration
->O<`Yelling
->_<`Frustrated
->_>`Looking left| shifty look
 ?4U`Question For You
 ??`What?
 ?_?`Confused| lost
@@ -565,6 +563,7 @@ AWKY`Awkward
 AWNP`All Work, No Play
 AWOL`Absent Without Leave
 AWP`Arctic Warfare Police sniper rifle
+AWS`As We Speak
 AWS`As We Speak
 AWSM`Awesome
 AWW`Cute
@@ -1209,6 +1208,7 @@ CHEDDA`Cash| money
 CHEDDAR`Money
 CHEERIO`Goodbye
 CHEERS`Thanks| Goodbye
+CHEESE`Drug| starter heroin| Money
 CHEESE`Drug| starter heroin| Money
 CHEESY`Corny| lame
 CHEEZ`Cheese
@@ -1904,11 +1904,11 @@ DYS`Do You See?
 DYT`Don't You Think?
 DZ`Drop Zone
 E`Ecstasy
+E>`<3
 E&OE`Errors and omissions excluded
 E-DATING`Online dating
 E1`Everyone
 E2EG`Ear To Ear Grin
-E>`<3
 EA`Electronic Arts
 EAS`End of Active Service
 EB`Eyeball
@@ -2177,6 +2177,7 @@ FLA`Florida
 FLAFF`Foot Loose And Fancy Free
 FLAG`Bandana
 FLAGGED`Banned
+FLAGGED`Banned
 FLAKE`Unreliable person
 FLAKE OUT`Cancel at the last minute
 FLAKY`Unreliable
@@ -2336,6 +2337,7 @@ FYR`For Your Review| For Your Records
 FYT`For Your Time
 G`Grin
 G O A T`Greatest Of All Time
+GOAT`Greatest Of All Time
 G'DAY`Good Day, hello
 G1`Good One| Gone
 G2B`Go To Bed
@@ -2728,6 +2730,7 @@ HAYD`How Are You Doing?
 HAYT`How Are You Today?
 HAYWIRE`Crazy
 HAZE`Type of marijuana
+HB`Hug Back
 HB`Hurry Back
 HBCU`Historically Black Colleges and Universities
 HBD`Happy Birthday
@@ -2789,6 +2792,7 @@ HGI`How Goes It?
 HGL`Happy Go Lucky
 HGTV`Home and Garden Television
 HGV`Heavy Goods Vehicle
+HH`Ha-Ha
 HH`Holding Hands
 HHIS`Hanging Head In Shame
 HHOJ`Ha-Ha, Only Joking
@@ -2964,11 +2968,11 @@ HYS`Have Your Say
 HYU`Hit You Up
 HYUK`Lose| despite having a good lead
 HZ`Hertz
+I<3U`I Love You
 I'MA`I am going to
 I/O`Input/Output
 I18N`Internationalization
 I8`Aight| aite| alright
-I<3U`I Love You
 IA`I Agree
 IAB`I Am Bored
 IABW`In A Bad Way
@@ -3458,6 +3462,8 @@ JGB`Just Got Back
 JGH`Just Got Home
 JGI`Just Google It
 JGL`Just Get Lost
+JGI`Just Google It
+JGL`Just Get Lost
 JHC`Jesus H Christ
 JHEEZE`OMG| wow
 JHP`Jacketed Hollow Point (bullet)
@@ -3791,8 +3797,8 @@ LFTI`Looking Forward To It
 LFTSU`Look Forward To Seeing You
 LFW`Looking For Work
 LG`Little Girl
-LGBT`Lesbian, Gay, Bisexual, Transexual
 LGBTQ`Lesbian, Gay, Bisexual, Transexual, Questioning
+LGBT`Lesbian, Gay, Bisexual, Transexual
 LGD`Let's Get Drunk
 LGFB`Looks Good From Behind
 LGMH`Love Gives Me Hope
@@ -3853,8 +3859,8 @@ LM`Loud Mouth
 LMA`Leave Me Alone
 LMAD`Let's Make A Deal
 LMAM`Leave Me A Message
-LMAO`Laughing my ass off
 LMAP`Leave Me Alone Please
+LMAO`Laughing my ass off
 LMC`Let Me Check| Let Me See
 LMCO`Laughing My Cats Off
 LMG`Light Machine Gun
@@ -4426,6 +4432,7 @@ NACKERED`Tired| worn out
 NADA`Nothing
 NADDA`Nothing
 NAE`No
+NAE`No
 NAFF`Poor quality| uncool| Substitute swear word
 NAGL`Not A Good Look
 NAH`No
@@ -4984,6 +4991,7 @@ OTS`On The Side
 OTT`Over The Top
 OTTH`On The Third Hand
 OTTOMH`Off The Top Of My Head
+OTW`On The Way
 OTW`On The Whole
 OTY`Over To You
 OTZ`ORZ
@@ -5069,6 +5077,7 @@ PBP`Please Be Patient
 PBQ`Please Be Quiet
 PBR`Pabst Blue Ribbon (beer)
 PBS`Public Broadcasting Service
+PBUH`Peace Be Upon Him
 PBUH`Peace Be Upon Him
 PBWU`Peace Be With You
 PBWY`Peace Be With You
@@ -5390,6 +5399,8 @@ PWOS`Parents Watching Over Shoulder
 PWP`Plot? What Plot?
 PWT`Poor White Trash
 PX`Post Exchange| Part Exchange
+PYP`Play Your Position
+PYT`Pretty Young Thing
 PYP`Play Your Position
 PYT`Pretty Young Thing
 PZ`Peace
@@ -6035,6 +6046,7 @@ SOUND`Cool| awesome| good
 SOUR`Strong WEED
 SOW`Female police officer
 SOWIE`Sorry
+SOWIE`Sorry
 SOX`Socks
 SOY`Shame On You
 SOYW`Something On Your Wall
@@ -6356,6 +6368,7 @@ TEKKERS`Technique
 TELNET`Network Virtual Terminal Protocol
 TEMP`Temporary
 TEN`Person with a perfect body
+TEOTWAWKI`The End Of The World As We Know It
 TEOTWAWKI`The End Of The World As We Know It
 TERRIBAD`Terrible and Bad, awful
 TEVS`Whatever
@@ -7314,6 +7327,7 @@ WUWT`What's Up With That
 WUWTA`What You Wanna Talk About?
 WUWTB`What You Wanna Talk 'Bout?
 WUWU`What's Up With You?
+WUWU`What's Up With You?
 WUZ`Was
 WW`White Widow| White Woman
 WW1`World War One
@@ -7637,5 +7651,5 @@ ZZZ`Sleepy| bored| tired
 |O|`LOL
 }:-)`Devilish smile
 ~`Denotes Sarcasm| Put At The End Of A Word To Make It Longer
-ô`Trademark
 Æ`Registered Trademark Symbol
+ô`Trademark

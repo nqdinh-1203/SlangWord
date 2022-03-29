@@ -172,10 +172,13 @@ public class Features
         System.out.println("Delete Failed!");
     }
 
-    public static void f07(SWDict dict, String file_name) throws IOException
+    public static SWDict f07(String file_name) throws IOException
     {
-        dict = SWFile.read("default.txt");
+        SWDict dict = SWFile.read("default.txt");
+        if(dict == null)
+            System.out.println("null me roi");
         SWFile.write(file_name, dict);
+        return dict;
     }
 
     public static void f08(SWDict dict)

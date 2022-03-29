@@ -66,7 +66,9 @@ public class Main
                     pause_console(in);
                 }
                 case 7 ->{
-                    Features.f07(dict, file_name);
+                    dict.clear();
+                    dict = null;
+                    dict = Features.f07(file_name);
                     pause_console(in);
                 }
                 case 8 ->{

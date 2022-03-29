@@ -43,6 +43,11 @@ public class SWDict {
             System.out.println(temp.toString());
         }
     }
+
+    public void clear()
+    {
+        dictionary.clear();
+    }
     
     public SlangWord findBySlang(String slang) {
         for (Map.Entry<String, ArrayList<String>> sl : dictionary.entrySet()) {
