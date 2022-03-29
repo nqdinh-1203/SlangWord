@@ -61,7 +61,6 @@ public class SWDict {
                 if(m.contains(meaning))
                     list.add(toSlangWord(sl));
         }
-
         return list;
     }
 
@@ -73,7 +72,7 @@ public class SWDict {
     public void duplicateSlangWord(SlangWord sw) 
     {
         for (Map.Entry<String, ArrayList<String>> entry : dictionary.entrySet()) {
-            if (entry.getKey() == sw.getSlang()) {
+            if (entry.getKey().equals(sw.getSlang())) {
                 ArrayList<String> m = entry.getValue();
                 m.addAll(sw.getMeanings());
                 entry.setValue(m);
